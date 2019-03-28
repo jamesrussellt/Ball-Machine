@@ -10,45 +10,40 @@ For exhibition and educational purposes.
 Machine to demonstrate the use of Selection Sorting Algorithm and Pancake Sorting Algorithm using balls of different weights.
 
 ## Contents
-* `goMine.py` 
-  * extracts metadata from GitHub API
-  * takes a lost of project references as input (a CSV where each line is a list of GitHub repository references <owner>/<repoName> affiliated to a project)
-  * produces for each project a JSON file with a reference all branches
-  * produces for each project a JSON file with all commits of all branches
-* `goCreateGraphs.py`
-  * takes as input a list of JSON files containing all commit information related to a project produced by goMine.py
-  * creates for each project the following graphs in GraphML:
-    * a commit graph (as seen in Insights/Network in GitHub)
-    * contributor graphs (where each node is a contributor and each edge is the edition of the same file by two contributors), filtered per filetype
-    * graphs of all committed file changes (one subgraph per file), filtered per filetype
-* `analysisActivityVolume.py`
-  * computes indicators related to activity volume (number of file changes over time and per project)
-  * takes as input the graphs of file changes produced by goCreateGraphs.py
-* `analysisActivityDistribution.py`
-  * computes indicators related to activity distribution
-  * takes as input the contributor graphs produced by goCreateGraphs.py
-  * produces a CSV with computed indicators for all considered projects
-* `clustering.py`
-  * apply a k-means clustering to the topological indicators computed on the contributor graphs
-  * takes as input the computed list of topological indicators produced by analysisActivityDistribution.py
-* `timeStop.py`
-  * just an untility to add timestamps in traces
+* `2018_Templates` 
+  * Ignore folder - Manufacturing drawing templates used when creating machine assembly and component drawings.
+* `Balls`
+  * Balls of various weights to be used in machine.
+  * Folder contains CAD models and manufacturing drawings.
+* `Images`
+  * Ignore folder - Images used for open source documentation.
+* `Man`
+  * CAD model of human used to present machine size.
+* `OldVersions`
+  * Ignore folder - A backup of old overwritten files automatically saved when using Autodesk Inventor Software.
+* `Pancake Sort`
+  * 
+* `Prototype CAD`
+  * 
+* `Selection Sort`
+  * 
+* `Timing Gate`
+  * 
+* `Top Level`
+  * 
 
 ## Manufacturing This Machine
 Please see `BOM.xlsx` for full list of sub assemblies and parts required for this machine build.
 
 ## Instructions 
-... are given in the header of each script
+See each folder for more detail.
 
 ## More info
 These scripts are developped as part of a French-German interdisciplinary research project “Open! – Methods and tools for community-based product development”. It is jointly funded by the French and German national science agencies ANR (Agence Nationale de la Recherche, grant ANR-15-CE26-0012) and DFG (Deutsche Forschungsgemeinschaft, grant STA 1112/13-1). 
 See http://opensourcedesign.cc
 
 ## Refer to this work
-Cite as: _Jérémy Bonvoisin. (2018, March 27). jbon/github-mining: For Design Science Journal publication (Version v0.1). [doi:10.5281/zenodo.1208379](http://doi.org/10.5281/zenodo.1208379)_
-[![DOI](https://zenodo.org/badge/126846013.svg)](https://zenodo.org/badge/latestdoi/126846013)
-
-Results of these scripts have been used in: Bonvoisin, J., Buchert, T., Preidel, M., & Stark, R. (2018). How participative is open source hardware? Insights from online repository mining. Design Science, 4, E19. [doi:10.1017/dsj.2018.15](https://doi.org/10.1017/dsj.2018.15)
+Cite as: _James Taylor. (2019, March 28). jamesrussellt/Ball-Machine
 
 
 
