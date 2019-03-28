@@ -9,23 +9,11 @@ For exhibition and educational purposes.
 As part of IMAGINARY open mathematics exhibitions (https://imaginary.org/), this machine demonstrates the use of Selection Sorting and Pancake Sorting Algorithms using balls of different weights.
 
 ## Contents
-* `2018_Templates` 
-  * Ignore folder
-  * Manufacturing drawing templates used when creating machine assembly and component drawings.
+
 * `Balls`
   * Balls of various weights to be used in machine.
   * Folder contains CAD models and manufacturing drawings.
-* `Images`
-  * Ignore folder
-  * Images used for open source documentation.
-* `Man`
-  * CAD model of human used to present machine size.
-* `OldVersions`
-  * Ignore folder
-  * A backup of old overwritten files automatically saved when using Autodesk Inventor Software.
 * `Pancake Sort`
-  * 
-* `Prototype CAD`
   * 
 * `Selection Sort`
   * 
@@ -33,6 +21,20 @@ As part of IMAGINARY open mathematics exhibitions (https://imaginary.org/), this
   * 
 * `Top Level`
   * 
+
+The following folders were used for the creation of the machine and serve no purpose for manufacturing.
+
+* `2018_Templates` 
+  * Manufacturing drawing templates used when creating machine assembly and component drawings.
+* `Images`
+  * Images used for open source documentation.
+* `Man`
+  * CAD model of human used to present machine size.
+* `OldVersions`
+  * A backup of old overwritten files automatically saved when using Autodesk Inventor Software.
+* `Prototype CAD`
+  * A copy of the 'Selection Sort comparator' used to prove design principles.
+  * Is built for larger 40mm balls and may contain other components for design adaptation.
 
 ## Manufacturing This Machine
 Please see `BOM.xlsx` for full list of sub assemblies and parts required for this machine build.
