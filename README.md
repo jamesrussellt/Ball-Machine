@@ -1,6 +1,6 @@
 # Ball-Machine
 
-![logo](https://github.com/jbon/design-dependencies/blob/master/images/logo.png)
+![logo](https://github.com/jamesrussellt/Ball-Machine/blob/images/Top_Assy.png)
 
 ## About this repository
 Python scripts for investigating open source hardware GitHub repositories
