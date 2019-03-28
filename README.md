@@ -1,6 +1,8 @@
-# Ball-Machine
+# Ball-Sorting-Machine
+University of Bath - Final Year Mechanical Engineering Masters Project
 
 ![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Top_Assy.png)
+Ball Sorting Machine for exhibition and educational purposes.
 
 ## About this repository
 Python scripts for investigating open source hardware GitHub repositories
