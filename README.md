@@ -11,16 +11,19 @@ Machine to demonstrate the use of Selection Sorting Algorithm and Pancake Sortin
 
 ## Contents
 * `2018_Templates` 
-  * Ignore folder - Manufacturing drawing templates used when creating machine assembly and component drawings.
+  * _Ignore folder
+  * Manufacturing drawing templates used when creating machine assembly and component drawings.
 * `Balls`
   * Balls of various weights to be used in machine.
   * Folder contains CAD models and manufacturing drawings.
 * `Images`
-  * Ignore folder - Images used for open source documentation.
+  * _Ignore folder
+  * Images used for open source documentation.
 * `Man`
   * CAD model of human used to present machine size.
 * `OldVersions`
-  * Ignore folder - A backup of old overwritten files automatically saved when using Autodesk Inventor Software.
+  * _Ignore folder
+  * A backup of old overwritten files automatically saved when using Autodesk Inventor Software.
 * `Pancake Sort`
   * 
 * `Prototype CAD`
