@@ -34,6 +34,9 @@ Machine to demonstrate the use of Selection Sorting Algorithm and Pancake Sortin
 * `timeStop.py`
   * just an untility to add timestamps in traces
 
+## Manufacturing This Machine
+Please see `BOM.xlsx` for full list of sub assemblies and parts required for this machine build.
+
 ## Instructions 
 ... are given in the header of each script
 
