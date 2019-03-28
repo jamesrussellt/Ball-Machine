@@ -1,6 +1,6 @@
 # Ball-Machine
 
-![logo](https://github.com/jamesrussellt/ball-machine/blob/master/images/top_assy.png)
+![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Top_Assy.png)
 
 ## About this repository
 Python scripts for investigating open source hardware GitHub repositories
