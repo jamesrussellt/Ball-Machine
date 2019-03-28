@@ -5,9 +5,8 @@ For exhibition and educational purposes.
 
 ![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Top_Assy.png)
 
-
 ## About this repository
-Machine to demonstrate the use of Selection Sorting Algorithm and Pancake Sorting Algorithm using balls of different weights.
+As part of IMAGINARY open mathematics exhibitions (https://imaginary.org/), this machine demonstrates the use of Selection Sorting and Pancake Sorting Algorithms using balls of different weights.
 
 ## Contents
 * `2018_Templates` 
@@ -35,8 +34,6 @@ Machine to demonstrate the use of Selection Sorting Algorithm and Pancake Sortin
 * `Top Level`
   * 
 
-
-
 ## Manufacturing This Machine
 Please see `BOM.xlsx` for full list of sub assemblies and parts required for this machine build.
 
@@ -44,7 +41,7 @@ Please see `BOM.xlsx` for full list of sub assemblies and parts required for thi
 See each folder for more detail.
 
 ## More info
-These scripts are developped as part of a French-German interdisciplinary research project “Open! – Methods and tools for community-based product development”. It is jointly funded by the French and German national science agencies ANR (Agence Nationale de la Recherche, grant ANR-15-CE26-0012) and DFG (Deutsche Forschungsgemeinschaft, grant STA 1112/13-1). 
+Another comparing mechanism, designed by Evgeniy Shiryaev, can be used for sorting algorithms which require 2 balls to be compared at a time. This comparator was used as a starting point for the project and lead to the development of Selection and Pancake comparators which compare all balls at once.
 See https://imaginary.org/hands-on/balls-sorting-mechanism
 
 ## Refer to this work
