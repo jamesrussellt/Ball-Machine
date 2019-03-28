@@ -1,13 +1,13 @@
 # Ball-Sorting-Machine
 University of Bath - Final Year Mechanical Engineering Masters Project
 
-Ball Sorting Machine for exhibition and educational purposes.
+For exhibition and educational purposes.
 
 ![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Top_Assy.png)
 
 
 ## About this repository
-Python scripts for investigating open source hardware GitHub repositories
+Machine to demonstrate the use of Selection Sorting Algorithm and Pancake Sorting Algorithm using balls of different weights.
 
 ## Contents
 * `goMine.py` 
