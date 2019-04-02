@@ -1,4 +1,4 @@
-# Timing Gate
+# Timing Gate - 4 Lanes
 
 ![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Timing_Assy_4_Lanes.png)
 
