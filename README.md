@@ -10,17 +10,21 @@ As part of IMAGINARY open mathematics exhibitions (https://imaginary.org/), this
 
 ## Contents
 
+* `Top Level`
+  * Machine full assembly.
+  * Folder contains CAD models and manufacturing drawings.
 * `Balls`
-  * Balls of various weights to be used in machine.
+  * Balls of various weights required for the machine.
   * Folder contains CAD models and manufacturing drawings.
 * `Pancake Sort`
-  * 
+  * Pancake Sort comparing mechanism.
+  * Folder contains CAD models and manufacturing drawings.
 * `Selection Sort`
-  * 
+  * Selection Sort comparing mechanism.
+  * Folder contains CAD models and manufacturing drawings.
 * `Timing Gate`
-  * 
-* `Top Level`
-  * 
+  * Timing Gate used for Selection Sort comparing mechanism.
+  * Folder contains CAD models and manufacturing drawings.
 
 The following folders were used for the creation of the machine and serve no purpose for manufacturing.
 
