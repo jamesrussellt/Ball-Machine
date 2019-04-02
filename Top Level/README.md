@@ -2,11 +2,4 @@
 
 ![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Top_Assy.png)
 
-## About this repository
-As part of IMAGINARY open mathematics exhibitions (https://imaginary.org/), this machine demonstrates the use of Selection Sorting and Pancake Sorting Algorithms using balls of different weights.
-
-## Contents
-
-* `Balls`
-  * Balls of various weights to be used in machine.
-  * Folder contains CAD models and manufacturing drawings.
+This folder contains the full machine assembly using sub-assemblies from `Pancake Sort`, `Selection Sort` and `Timing Gate` along with manufacturing drawings.
