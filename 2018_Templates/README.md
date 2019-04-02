@@ -3,7 +3,7 @@ University of Bath - Final Year Mechanical Engineering Masters Project
 
 For exhibition and educational purposes.
 
-![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/2018_Templates_image.png)
+![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Pancake_Assy.png)
 
 ## About this repository
 As part of IMAGINARY open mathematics exhibitions (https://imaginary.org/), this machine demonstrates the use of Selection Sorting and Pancake Sorting Algorithms using balls of different weights.
