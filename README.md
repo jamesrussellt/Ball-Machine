@@ -8,6 +8,23 @@ For exhibition and educational purposes.
 ## About this repository
 As part of IMAGINARY open mathematics exhibitions (https://imaginary.org/), this machine demonstrates the use of Selection Sorting and Pancake Sorting Algorithms using balls of different weights.
 
+## Selection Sorting Algorithm
+This simple algorithm demonstrates the concept of sorting algorithms by least number of ball comparisons.
+
+This algorithm picks the heaviest ball from the set of balls and places it to the right hand side of the pack. It will repeat this for the remaining balls until all balls have been sorted into weight order.
+
+## Pancake Sorting Algorithm
+This more complex algorithm demonstrates the concept of sorting algorithms by least number of reversals or 'flips'. You are more limited in this case than Selection Sort because you cannot simply pick the ball out of the pack and place it at the side.
+
+Imagine you have a stack of pancakes of various sizes which you want in size order with the largest pancake (or heaviest ball in our case) at the bottom. You can only use your spatula to insert under the largest pancake and flip it, with any pancakes above it, so that the largest pancake rests on top of the pile. Then you re-insert your spatula at the bottom of the pile to flip all the pancakes at once so the largest pancake is now at the bottom of the pile. This method is repeated until all pancakes are in size order.
+
+## How the machine works
+The machine is effectively a repeat of a few sub assemblies which comprise the first line of the two algorithms. For each following line of both algorithms, the assemblies used are the same but adapted for one less ball lane.
+
+A lever which can be seen towards the bottom right of the image above allows the user to switch between the two algorithms. For Selection Sort, the pancake comparator is skipped and the balls travel around it to the next selection comparator. For Pancake Sort, the balls travel straight from the selection comparator into the pancake comparator.
+
+See `Pancake Sort` and `Selection Sort` for more information on how these comparators work to implement the two algorithms set out above.
+
 ## Contents
 
 * `Top Level`
