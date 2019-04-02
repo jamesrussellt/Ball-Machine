@@ -1,54 +1,20 @@
-# Ball-Sorting-Machine
-University of Bath - Final Year Mechanical Engineering Masters Project
+# Pancake Sort - 4 Lanes
 
-For exhibition and educational purposes.
+![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Pancake_Assy_4_Lanes.png)
 
-![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Top_Assy.png)
+This folder contains CAD models and drawings for the `Pancake Sort` comparator.
 
-## About this repository
-As part of IMAGINARY open mathematics exhibitions (https://imaginary.org/), this machine demonstrates the use of Selection Sorting and Pancake Sorting Algorithms using balls of different weights.
+## How it works
 
-## Contents
+This comparator uses the `Selection Sort` comparator before it to identify the heaviest ball and pass the balls into the corresponding `Pancake Sort` comparator entry tubes.
 
-* `Balls`
-  * Balls of various weights to be used in machine.
-  * Folder contains CAD models and manufacturing drawings.
-* `Pancake Sort`
-  * 
-* `Selection Sort`
-  * 
-* `Timing Gate`
-  * 
-* `Top Level`
-  * 
+ * Each ball lane has two entry tubes (hence 10 entry tubes for 5 ball lanes) - Left for the lighter balls, Right for the heavier balls.
 
-The following folders were used for the creation of the machine and serve no purpose for manufacturing.
+The `Pancake Sort` comparator flips the order of the heaviest ball and the balls to the left of it (just like flipping the largest pancake and all of the others on top of it). The balls to the right of the heaviest stay in lane. The tubes connecting the `Pancake Sort` comparator to the next line of the algorithm are connected so that the full sequence is flipped (the last stage of the Pancake Sort algorithm).
 
-* `2018_Templates` 
-  * Manufacturing drawing templates used when creating machine assembly and component drawings.
-* `Images`
-  * Images used for open source documentation.
-* `Man`
-  * CAD model of human used to present machine size.
-* `OldVersions`
-  * A backup of old overwritten files automatically saved when using Autodesk Inventor Software.
-* `Prototype CAD`
-  * A copy of the 'Selection Sort comparator' used to prove design principles.
-  * Is built for larger 40mm balls and may contain other components for design adaptation.
-
-## Manufacturing This Machine
-Please see `BOM.xlsx` for full list of sub assemblies and parts required for this machine build.
-
-## Instructions 
-See each folder for more detail.
-
-## More info
-Another comparing mechanism, designed by Evgeniy Shiryaev, can be used for sorting algorithms which require 2 balls to be compared at a time. This comparator was used as a starting point for the project and lead to the development of Selection and Pancake comparators which compare all balls at once.
-See https://imaginary.org/hands-on/balls-sorting-mechanism
-
-## Refer to this work
-Cite as: James Taylor. (2019, March 28). jamesrussellt/Ball-Machine
-
-
-
-
+ * The heaviest ball hits a purple lever upon entry which changes the lane directions of the balls to the right of it.
+ * These balls pass under the `Z` shaped ball run and into the exit timing gate.
+ * The heaviest ball and the balls to the left pass into the `Z` shaped ball run.
+ * This keeps the order of the balls the same as they pass into the exit timing gate.
+ * The exit timing gate reverses the order of the entering balls as the first drops into place, the others pass over the top.
+ * The balls are released out of the comparator at the same time for visual effect to watch the balls flip order as they pass through the connecting tubes (not shown in picture).
