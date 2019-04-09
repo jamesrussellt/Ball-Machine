@@ -59,6 +59,7 @@ The following folders were used for the creation of the machine and serve no pur
 
 ## Manufacturing This Machine
 Please see `BOM.xlsx` for full list of sub assemblies and parts required for this machine build.
+Please see `All Drawing PDFs` for all manufacture drawings.
 
 ## Instructions 
 See each folder for more detail.
