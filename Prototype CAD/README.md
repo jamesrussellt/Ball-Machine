@@ -14,7 +14,7 @@ Adaptations to the original design include:
  * Faces added to each point of star to prevent other lever slipping over it.
 
 `Reset Lever`
-![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Prototypeimage3.JPG)
+![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Prototypeimage3.jpg)
  * Counter weight and stopper added to allow the lever to move into position faster when catching the shaft.
  * Please note lever was damaged in picture shown. Actual lever would not require glue to rest on shaft.
 
