@@ -2,8 +2,7 @@
 
 A prototype of the `Selection Sort comparator` was made for demonstrating its design using larger 40mm balls.
 
-INSERT CORRECT IMAGE BELOW
-![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Selection_Assy.png)
+![logo](https://github.com/jamesrussellt/Ball-Machine/blob/master/Images/Prototype_image_1.png)
 
 Adaptations to the original design include:
  * A new `Star Piece` used in the `Timing Gate` assembly
