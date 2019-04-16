@@ -27,6 +27,9 @@ See `Pancake Sort` and `Selection Sort` for more information on how these compar
 
 ## Contents
 
+* `All Drawing PDFs`
+  * All PDF manufacturing drawings for reference.
+  * Drawings are also included in each sub-folder to show where they are used.
 * `Top Level`
   * Machine full assembly.
   * Folder contains CAD models and manufacturing drawings.
